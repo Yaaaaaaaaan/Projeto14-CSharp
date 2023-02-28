@@ -22,6 +22,9 @@ namespace Projeto14
             {
                 sum += vect[i];
             }
+            double avg = sum / n;
+            Console.WriteLine("Altura média; " +avg.ToString("F2", CultureInfo.InvariantCulture));
+            Console.ReadLine();
         }
     }
 }
